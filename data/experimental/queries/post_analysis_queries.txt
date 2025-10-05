@@ -1,0 +1,30 @@
+Report the total base shear in the X and Y directions for the 'Dead' load case
+Extract maximum positive and negative moments for all beams on Story 2, identify the governing load combinations for each beam, and list beams that exceed 80% of their moment capacity
+List the story drifts for all stories in the X-direction under the 'Dead' load.
+Identify the top 10 columns with the highest axial load from the 'Dead' case
+List all beams on the Story2 where the maximum bending moment exceeds 150 kip-ft.
+For the beam with the maximum vertical displacement, what is its maximum bending moment?
+List all columns where the axial force from 'Dead' load is greater than 1000 kips
+What is the total vertical base reaction from the 'Dead' load case?
+Get the maximum drift value for the top story
+Get the torsion in beam '496' for the 'Dead' load case.
+Get the frame joint forces at both ends of beam '506'.
+What are the full displacement values, including all three translations and rotations, for joint '149' under the 'Dead' load case?
+List the vertical reactions (FZ) for support joints '149', '154'
+For the only column with the highest axial load, report its corresponding maximum lateral displacement at the top story.
+Identify only beams on the Story3 where the major moment (M3) exceeds 200 kip-ft AND the maximum vertical displacement at any of its joints is greater than 1 inch.
+List all stories where the inter-story drift in the X-direction is greater than 0.002 times the story height
+For beam '506', retrieve the joint forces at its ends and verify that they are in equilibrium with the beam's internal shear and moment.
+Generate a report showing each concrete material's strength, and for each material, list the top 5 columns with the highest axial loads that use it.
+Retrieve all beams connected to joint '149' and report their maximum shear forces.
+For every frame section defined in the model, find the maximum bending moment experienced by any element using that section.
+List the drifts for all stories that are designated as a 'Master Story'.
+Retrieve the modal period, cyclic frequency, and eigenvalue for the third vibrational mode.
+Generate a report summarizing the top 5 modes with the highest mass participation in the Y-direction.
+For the fundamental mode in the X-direction, what is the modal load participation ratio?
+Identify the mode number that corresponds to the first primary torsional mode of the structure.
+Report the displacement of joint '154' and the axial force in all members connected to it.
+For beams ONLY on the Story4, list their maximum shear force and the corresponding axial load and report the location.
+For the second mode of vibration, determine if it is predominantly translational or torsional by comparing the sum of UX and UY participation to the RZ participation.
+Retrieve the mode shape vector for the first torsional mode and identify which corner of the building experiences the largest displacement.
+Identify any coupled modes by finding the first three modes where the mass participation is greater than 15% in both a translational (UX or UY) and a rotational (RZ) direction simultaneously.
