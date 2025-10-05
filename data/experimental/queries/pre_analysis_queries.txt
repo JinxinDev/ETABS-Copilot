@@ -1,0 +1,30 @@
+List all beam sections used in this model with their dimensions
+Identify all columns with different section sizes and their grid locations
+Count total number of structural elements by type: columns, beams, slabs.
+List total number of load patterns.
+Please give me all beam span lengths in the model, you can use beam point coordinate to get the span length and remember not to calculate the column
+List all applied loads with magnitudes
+List all column heights by story.
+List all reinforcement bar sizes and grades used throughout the structure.
+Count elements by floor level and provide totals for each story.
+List all concrete materials with their compressive strengths.
+Generate inventory of all concrete sections showing width, height, and reinforcement details
+Please help me get the slab area of each story
+List all grid line coordinates and spacings in X and Y directions
+Create multiple beam section sizes, assign them to different spans based on length, then generate a section usage summary by floor
+Generate a comprehensive report showing: all materials defined, which frame sections use each material, which objects use those sections, and total quantities by story.
+List all beam sections that use more than 5 square inches of longitudinal top reinforcement.
+Compare the total count of beams on Story 2 versus Story 3 and report which has more.
+Count how many defined frame sections are I-sections versus rectangular sections.
+Find the Cartesian coordinates for all points of slab
+Identify the longest and shortest beam spans in the entire model and report their lengths and locations.
+Find all slab panels with an aspect ratio (longer side / shorter side) greater than 2.0.
+Find any beams that have more than one distributed load assigned to them under the same load pattern.
+Find all concrete beam sections where the specified longitudinal rebar grade is not 'Grade 60'.
+Retrieve all slab elements whose thickness is greater than 5 inches.
+Generate a summary of all concrete materials, showing each material's name and its specified compressive strength
+Verify that every story level has been defined as a 'Master Story' or is 'Similar To' another story and report any that are not.
+Identify all beams with a span-to-depth ratio greater than 20, which may be susceptible to deflection issues.
+Verify that all concrete frame objects use a material with a compressive strength of at least 4000 psi and flag any that do not.
+Identify the story with the highest number of column elements.
+Increase the thickness of all slab sections by 1 inch.
