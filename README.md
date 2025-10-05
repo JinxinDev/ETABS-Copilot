@@ -53,29 +53,7 @@ With domain knowledge available, GitHub Copilot can provide:
 - ETABS API compliance suggestions
 - Design validation and engineering checks
 - Context-aware code improvements
-  
-# ETABS Copilot Case Study - Supplementary Materials
 
-## Overview
-This repository contains datasets and code from the paper "AI Copilot for Structural Design and Analysis Automation: A Knowledge Graph-Enhanced Multi-Agent Framework"
-
-## Repository Contents
-- **90 Experimental Queries**: Comprehensive test dataset spanning pre-analysis, model modification, and post-analysis tasks
-- **Real-World Case Study**: Five-story office building model with construction and analysis queries
-- **Generated Code**: Python scripts using ETABS API for all queries
-
-## ETABS Model Specifications
-- Building type: Five-story office building
-- Plan dimensions: 60 ft × 80 ft
-- Total height: 63 ft
-- Grid: 4×5 at 20 ft spacing
-- Structural elements: 100 columns, 175 beams, 60 slabs
-- Load combinations: 4 ASCE 7 combinations
-
-## Usage
-1. Open the ETABS model: `data/real_world/model/office.EDB`
-2. Run construction script in: `python data/real_world/code`
-3. Run post-analysis queries as needed
 ## Live Demo: Counting Beams and Columns
 ![Animation_3-ezgif com-optimize](https://github.com/user-attachments/assets/fadc14cb-35f6-47d0-9914-2bd36642ba96)
 ### Step 1: Natural Language Input
@@ -142,6 +120,28 @@ With both the generated code and .etabs-knowledge.md file in workspace:
 - **Professional Documentation**: Comprehensive docstrings and usage examples
 - **Data Export**: CSV export capability for further analysis
 - **Input Validation**: Bounds checking and type validation for all parameters
+
+## ETABS Copilot Case Study - Supplementary Materials
+
+### Repository Contents
+- **90 Experimental Queries**: Comprehensive test dataset spanning pre-analysis, model modification, and post-analysis tasks
+- **Real-World Case Study**: Five-story office building model with construction and analysis queries
+- **Generated Code**: Python scripts using ETABS API for all queries
+
+### ETABS Model Specifications
+- Building type: Five-story office building
+- Plan dimensions: 60 ft × 80 ft
+- Total height: 63 ft
+- Grid: 4×5 at 20 ft spacing
+- Structural elements: 100 columns, 175 beams, 60 slabs
+- Load combinations: 4 ASCE 7 combinations
+
+### Usage
+1. Open the ETABS model: `data/real_world/model/office.EDB`
+2. Run construction script in: `python data/real_world/code`
+3. Run post-analysis queries as needed
+<img width="1010" height="1263" alt="case study_2" src="https://github.com/user-attachments/assets/76c9ef45-edb9-4552-9b39-683a62e9d2a1" />
+<img width="1010" height="1263" alt="case study_1" src="https://github.com/user-attachments/assets/6db12297-3209-40d8-8e6c-086f839d6bcb" />
 
 ## Key Transformation Metrics
 
