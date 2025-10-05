@@ -1,0 +1,30 @@
+Create dead and live load patterns, apply them to all slabs and beams
+Create a new 5-bay by 4-bay grid system with 25-foot spacing, then add 6 stories at 12-foot heights starting from elevation 0
+Create a comprehensive material set including 4000 psi concrete, Grade 60 rebar, A992 steel, and verify all materials are properly added to the model library.
+Create a new concrete material named 'CONC6000' with 6000 psi compressive strength, 57000 ksi elastic modulus, and 0.15 kcf unit weight. Then create three rectangular concrete sections: 'COL24x24' (24"×24"), 'BEAM16x30' (16"×30"), and 'BEAM14x24' (14"×24") all using this concrete material.
+Create Grade 60 rebar material (60 ksi yield strength), then create a concrete beam section 'BEAM18x36' (18"×36") with 4-#9 top bars, 4-#9 bottom bars, #4 stirrups at 12" spacing, and 2.5" concrete cover.
+Create 5 stories: 'BASE' at elevation 0 ft, 'LEVEL1' at 15 ft (15 ft height), 'LEVEL2' at 30 ft (15 ft height), 'LEVEL3' at 45 ft (15 ft height), and 'PENTHOUSE' at 65 ft (20 ft height).
+Create rectangular area objects for floor slabs at story 2: 30'×40' slabs at coordinates (0,0) to (30,40), (30,0) to (60,40), (60,0) to (90,40), and (0,40) to (30,80), (30,40) to (60,80), (60,40) to (90,80). Assign 8-inch thick slab properties and apply 50 psf (0.05 ksf) live load
+Create diaphragm based on story number
+Create seismic load pattern EQ_X. Create mass source from DEAD load (multiplier 1.0) and LIVE load (multiplier 0.25).
+Create a new concrete material with fc = 4.5 ksi, Ec = 4030 ksi, unit weight = 0.15 kcf. Then create three rectangular concrete sections: 18x24 inch columns, 14x30 inch beams, and 8-inch thick slabs. Assign the new concrete material to all sections and set rebar grades to Grade 60.
+Create a 5-story building with Ground Floor at 0 ft, Levels 2-5 at 15 ft, 30 ft, 45 ft, and 60 ft elevations. Each story height is 15 ft. Create a cartesian grid system with 4 bays at 25 ft spacing in X-direction (Lines A-E) and 3 bays at 30 ft spacing in Y-direction (Lines 1-4).
+Create load patterns: DEAD (Dead, 1.0 self-weight multiplier), LIVE (Live Load), WIND_X (Wind in X), WIND_Y (Wind in Y). Apply uniform dead load of 0.085 ksf and live load of 0.080 ksf to all floor slabs.
+Create a new concrete material named 'C4000' with compressive strength 4.0 ksi, elastic modulus 3605 ksi, and unit weight 0.15 kip/ft³. Then create three rectangular concrete sections: '18x18COL' (18"×18"), '12x24BEAM' (12"×24"), and '16x20COL' (16"×20") all using this C4000 material. Create Grade 60 rebar material with yield strength 60 ksi and elastic modulus 29000 ksi. Then assign rebar reinforcement to the '18x18COL' section
+Create a dead load pattern named 'DEAD' with self-weight multiplier 1.0. Apply 50 psf (0.05 ksf) uniform dead load to all slabs and 2.0 kip/ft distributed load on all beams. You have to differentiate beams and columns in frame objects
+Create live load pattern 'LIVE' and apply 80 psf (0.08 ksf) to all floor slabs. Then create load pattern 'ROOF_LIVE' with 30 psf (0.03 ksf) for roof level slabs only.
+Define a new user-defined concrete material named 'C6000' with a compressive strength of 6000 psi
+Define a new rectangular concrete beam section, 14 inches wide by 28 inches deep, named 'B14x28', using 4000 psi concrete.
+Modify the 'B14x28' section to have a depth of 30 inches and rename it to 'B14x30'.
+Define three new stories, 'Lobby', 'Office1', and 'Office2', each with a height of 14 feet.
+Draw columns using the 'C24x24' section at all grid intersections on the first floor.
+Create a new strength design load combination named '1.2D+1.0L+0.5W' that includes Dead, Live, and Wind-X loads with their respective factors
+For all stories above the Story1, change the section for columns only to 'W18x130'
+For all stories below the 3rd floor, increase the section depth of all concrete frames by 4 inches.
+Increase all uniform loads applied to slabs on the Story2 by 15%.
+Find all beams that are shorter than 10 feet and change their section property to 'B12x20'.
+Standardize all concrete frame section names to follow the format 'CB_DepthxWidth', for example, 'B14x28' should become 'CB_28x14'.
+For any story with a height greater than 15 feet, replace all column sections on that story with 'C24x24'. Remember to differentiate column and beam in frame
+On the 3rd floor only, remove all beams that are oriented in the Y-direction.
+For every slab in the model, change its section property to 'S10'
+For Story2, Story4, and Story5, increase the story height by 1.5 feet.
