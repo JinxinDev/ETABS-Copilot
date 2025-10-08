@@ -77,7 +77,7 @@ for beam_info in beam_data:
                 beam_info["max_abs_moment"] = abs_m3
                 beam_info["governing_combo"] = combo_name
 
-# Step 6: Filter the identified beams based on the following criteria: beam length greater than 20 feet AND maximum absolute moment (from any combination) exceeds 100 kip-ft. For all beams that satisfy both conditions, report their beam label, story, calculated length, the maximum absolute moment value, and the name of the load combination that governs this maximum moment.
+# Step 6: Filter the identified beams based on the following criteria: beam length greater than 10 feet AND maximum absolute moment (from any combination) exceeds 50 kip-ft. For all beams that satisfy both conditions, report their beam label, story, calculated length, the maximum absolute moment value, and the name of the load combination that governs this maximum moment.
 print("\nFiltered Beams (Length > 10 ft AND Max Abs Moment > 50 kip-ft):")
 print(beam_data)
 for beam_info in beam_data:
