@@ -41,7 +41,7 @@ for story_name, frame_ID_list in story_frame_objects.items():
                 # Check if the Z-coordinates are approximately equal to identify a beam
                 if abs(Z1 - Z2) < tolerance:
                     # Calculate beam length
-                    length = ((X2 - X1)**2 + (Y2 - Y1)**2 + (Z2 - Z1)**2)**0.5
+                    length = ((X2 - X1)**2 + (Y2 - Y1)**2 + (Z2 - Z1)**2)**0.5/12
                     beams_on_story.append({"frame_ID": frame_ID, "length": length})
             else:
                 print(f"Error retrieving coordinates for frame {frame_ID} points: {ret_coord1}, {ret_coord2}")
@@ -82,7 +82,7 @@ for story_name, beams_on_story in beams_data.items():
             governing_neg_combo = None
 
             for i in range(NumberResults):
-                current_M3 = M3[i]
+                current_M3 = M3[i]/12000
                 current_LoadCase = LoadCase[i]
 
                 if current_M3 > max_pos_M3:
