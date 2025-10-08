@@ -32,7 +32,7 @@ for frame_name in story3_frame_names:
 
     if abs(Z2 - Z1) < z_tolerance:
         # It's a beam (horizontal element)
-        length = ((X2 - X1)**2 + (Y2 - Y1)**2 + (Z2 - Z1)**2)**0.5
+        length = ((X2 - X1)**2 + (Y2 - Y1)**2 + (Z2 - Z1)**2)**0.5/12
         beam_data.append({"label": frame_name, "story": "Story3", "length": length})
 
 for frame_name in story4_frame_names:
@@ -42,7 +42,7 @@ for frame_name in story4_frame_names:
 
     if abs(Z2 - Z1) < z_tolerance:
         # It's a beam (horizontal element)
-        length = ((X2 - X1)**2 + (Y2 - Y1)**2 + (Z2 - Z1)**2)**0.5
+        length = ((X2 - X1)**2 + (Y2 - Y1)**2 + (Z2 - Z1)**2)**0.5/12
         beam_data.append({"label": frame_name, "story": "Story4", "length": length})
 
 # Step 4: Select ALL load combinations for output (do this ONCE)
@@ -63,8 +63,8 @@ for beam_info in beam_data:
     if ret == 0 and NumberResults > 0:
         for i in range(NumberResults):
             combo_name = LoadCase[i]  # The combination name for this result
-            current_m2 = M2[i]
-            current_m3 = M3[i]
+            current_m2 = M2[i]/12000
+            current_m3 = M3[i]/12000
 
             abs_m2 = abs(current_m2)
             abs_m3 = abs(current_m3)
