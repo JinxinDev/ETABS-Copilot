@@ -106,7 +106,7 @@ for column in columns_data:
         combo_forces = {}
         for i in range(NumberResults):
             combo = LoadCase[i]
-            axial_force = P[i]
+            axial_force = P[i]/1000
             
             # Store maximum absolute axial force for each combination
             if combo not in combo_forces:
