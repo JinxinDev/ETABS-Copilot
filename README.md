@@ -4,6 +4,8 @@
 > Corresponding author: yi.bao@stevens.edu
 
 ---
+## Graphic Abstract
+![graphic_abstract](https://github.com/user-attachments/assets/3bd2b3d8-6043-4ffc-884a-a3884caf3df8)
 
 ## Overview
 
