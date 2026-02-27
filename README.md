@@ -13,7 +13,7 @@ This repository contains the data, code, and queries associated with the paper:
 
 ## Source Code
 
-> **Note**: The source code for the AI Copilot framework is currently not publicly available as the associated paper is under review. The code will be made publicly available upon acceptance and publication.
+> **Note**: The source code for the AI Copilot framework is currently not publicly available as the associated paper is under review. The code will be made available in the future.
 ---
 **"Artificial Intelligence Copilot for Automated Design of Buildings Using Knowledge Graphs and Numerical Models"**
 
