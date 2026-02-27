@@ -4,8 +4,6 @@
 ---
 ## Graphic Abstract
 ![graphic_abstract](https://github.com/user-attachments/assets/1a18f2cb-759c-4364-bb2e-434c92f7584d)
-![graphic_abstract](https://github.com/user-attachments/assets/1a18f2cb-759c-4364-bb2e-434c92f7584d)
-
 
 
 ## Overview
