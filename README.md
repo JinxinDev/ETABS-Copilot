@@ -3,7 +3,10 @@
 > **Jinxin Chen, Yi Bao** — Department of Civil, Environmental and Ocean Engineering, Stevens Institute of Technology, Hoboken, NJ 07030, USA
 ---
 ## Graphic Abstract
-![graphic_abstract](https://github.com/user-attachments/assets/3bd2b3d8-6043-4ffc-884a-a3884caf3df8)
+![graphic_abstract](https://github.com/user-attachments/assets/1a18f2cb-759c-4364-bb2e-434c92f7584d)
+![graphic_abstract](https://github.com/user-attachments/assets/1a18f2cb-759c-4364-bb2e-434c92f7584d)
+
+
 
 ## Overview
 
