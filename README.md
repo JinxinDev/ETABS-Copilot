@@ -11,6 +11,10 @@
 
 This repository contains the data, code, and queries associated with the paper:
 
+## Source Code
+
+> **Note**: The source code for the AI Copilot framework is currently not publicly available as the associated paper is under review. The code will be made publicly available upon acceptance and publication.
+---
 **"Artificial Intelligence Copilot for Automated Design of Buildings Using Knowledge Graphs and Numerical Models"**
 
 The paper presents an AI Copilot framework that automates structural building design by integrating large language models (LLMs) with a domain-specific knowledge graph in a multi-agent framework. Natural language queries from engineers are converted into executable operations in structural engineering software (ETABS). The Copilot achieves **100% results consistency** with manual operations while reducing total workflow time by **90%**, and demonstrates **~90% functional correctness** on a 90-query benchmark.
@@ -92,8 +96,6 @@ Contains data for the real-world office building case study, including:
 - [ETABS](https://www.csiamerica.com/products/etabs) (CSI structural analysis software)
 - Python 3.x
 - An OpenAI-compatible LLM API key (e.g., GPT-4)
-- Additional Python dependencies listed in `requirements.txt`
-
 ---
 
 ## Usage
