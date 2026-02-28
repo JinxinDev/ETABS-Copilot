@@ -94,7 +94,7 @@ Contains data for the real-world office building case study, including:
 
 - [ETABS](https://www.csiamerica.com/products/etabs) (CSI structural analysis software)
 - Python 3.x
-- An OpenAI-compatible LLM API key (e.g., GPT-4)
+- A Gemini API key.
 ---
 
 ## Usage
