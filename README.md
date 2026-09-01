@@ -47,9 +47,33 @@ Inquiries about the framework should be directed to Prof. Yi Bao
 
 ---
 
+## Demonstrations
+
+Screen recordings of the agent operating alongside ETABS. These are the video
+examples referenced in the Supplementary Materials of the paper.
+
+### Case 1 — Initialize a new model
+
+![Initialize a new model](demos/case_1_initialize_model.gif)
+
+### Case 2 — Create beams for specific axes and stories
+
+![Create beams](demos/case_2_create_beams.gif)
+
+### Case 3 — Report beam and column information for a story
+
+![Report frame information](demos/case_3_report_frame_info.gif)
+
+---
+
 ## Repository structure
 
 ```
+demos/                          # Screen recordings (Supplementary Materials)
+├── case_1_initialize_model.gif
+├── case_2_create_beams.gif
+└── case_3_report_frame_info.gif
+
 data/
 ├── experimental/               # 90-query benchmark (paper Section 6)
 │   ├── code/
