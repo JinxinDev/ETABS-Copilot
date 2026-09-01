@@ -54,15 +54,21 @@ examples referenced in the Supplementary Materials of the paper.
 
 ### Case 1 — Initialize a new model
 
-![Initialize a new model](demos/case_1_initialize_model.gif)
+
+<img width="1400" height="733" alt="case_1_initialize_model" src="https://github.com/user-attachments/assets/c3238874-5d80-4caf-9fbd-540cdd1d25c0" />
+
 
 ### Case 2 — Create beams for specific axes and stories
 
-![Create beams](demos/case_2_create_beams.gif)
+
+<img width="1400" height="733" alt="case_2_create_beams" src="https://github.com/user-attachments/assets/af0534eb-13d9-4f6d-b52f-a58e8cf430ad" />
+
 
 ### Case 3 — Report beam and column information for a story
 
-![Report frame information](demos/case_3_report_frame_info.gif)
+
+<img width="1400" height="733" alt="case_3_report_frame_info" src="https://github.com/user-attachments/assets/87de3f71-9c17-4aa0-903e-0c6dc37058bc" />
+
 
 ---
 
