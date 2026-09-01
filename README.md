@@ -1,5 +1,7 @@
 # Artificial Intelligence Design Agent for Automated Operation of Structural Software
 
+<img width="3152" height="1061" alt="graphic_abstract" src="https://github.com/user-attachments/assets/685e6d39-e0d2-465b-80fa-9e916d082d8d" />
+
 > **Jinxin Chen, Yi Bao** — Department of Civil, Environmental and Ocean Engineering,
 > Stevens Institute of Technology, Hoboken, NJ 07030, USA
 
